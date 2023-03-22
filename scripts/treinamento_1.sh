@@ -1,6 +1,6 @@
 python3.7 treino/src/main.py \
     --experiment-name "treinamento_resnet_3_6_2" \
-    --model-type-list "RawToTile_MobileNet" "TileToTile_Transformer" "TileToTileImage_SpatialViT" \
+    --model-type-list "RawToTile_ResNet" "TileToTile_Transformer" "TileToTileImage_SpatialViT" \
     --omit-list "omit_no_xml" \
     --error-as-eval-loss \
     --use-image-preds \
