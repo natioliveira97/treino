@@ -9,8 +9,8 @@ python3.7 treino/src/main.py \
     --accumulate-grad-batches 16 \
     --num-workers 6 \
     --train-split-path '/kaggle/input/dataset-artigo/dataset_artigo/train_files.txt' \
-    --val-split-path '/kaggle/dataset-artigo/dataset_artigo/val_files.txt' \
-    --test-split-path '/kaggle/dataset-artigo/dataset_artigo/test_files.txt' \
+    --val-split-path '/kaggle/input/dataset-artigo/dataset_artigo/val_files.txt' \
+    --test-split-path '/kaggle/input/dataset-artigo/dataset_artigo/test_files.txt' \
     --no-early-stopping \
     --tile-embedding-size 1000 \
     --raw-data-path '/kaggle/input/dataset-artigo/dataset_artigo/raw_images' \
