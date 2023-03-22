@@ -7,7 +7,7 @@ python3.7 treino/src/main.py \
     --batch-size 2 \
     --series-length 2 \
     --accumulate-grad-batches 16 \
-    --num-workers 6 \
+    --num-workers 2 \
     --train-split-path '/kaggle/input/dataset-artigo/dataset_artigo/train_files.txt' \
     --val-split-path '/kaggle/input/dataset-artigo/dataset_artigo/val_files.txt' \
     --test-split-path '/kaggle/input/dataset-artigo/dataset_artigo/test_files.txt' \
