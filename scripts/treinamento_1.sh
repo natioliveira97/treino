@@ -1,4 +1,4 @@
-python3.7 src/main.py \
+python3.7 treino/src/main.py \
     --experiment-name "treinamento_resnet_3_6_2" \
     --model-type-list "RawToTile_ResNet" "TileToTile_Transformer" "TileToTileImage_SpatialViT" \
     --omit-list "omit_no_xml" \
